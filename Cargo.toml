@@ -1,11 +1,11 @@
 [package]
-name = "kizaatech-remote"
+name = "rustdesk"
 version = "1.4.9"
 authors = ["Kizaatech <info@kizaatech.com>"]
 edition = "2021"
 build= "build.rs"
 description = "Kizaatech - Votre IT sur mesure"
-default-run = "kizaatech-remote"
+default-run = "rustdesk"
 rust-version = "1.75"
 
 [lib]
@@ -213,7 +213,7 @@ libxdo-sys = { path = "libs/libxdo-sys-stub" }
 LegalCopyright = "Copyright © 2026 Purslane Tech Pte. Ltd. All rights reserved."
 ProductName = "Kizaatech - Votre IT sur mesure"
 FileDescription = "Kizaatech - Votre IT sur mesure"
-OriginalFilename = "kizaatech-remote.exe"
+OriginalFilename = "rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
